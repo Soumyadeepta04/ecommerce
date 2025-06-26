@@ -1,4 +1,6 @@
-![SwipeKart Preview](assets/Banner.png)
+<p align="center">
+  <img src="assets/Banner.png" alt="SwipeKart Preview" width="600"/>
+</p>
 
 # 🛒 SwipeKart - Mobile E-Commerce Website
 
