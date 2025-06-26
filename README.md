@@ -30,7 +30,7 @@ SwipeKart allows users to browse, add to cart, and purchase mobile products easi
 ---
 
 ## 📂 Project Structure
-
+```
 SwipeKart/
 ├── assets/ # CSS, JS, images
 ├── templates/ # Reusable PHP components (navbar, footer)
@@ -38,7 +38,7 @@ SwipeKart/
 ├── cart.php # Shopping cart page
 ├── checkout.php # Checkout page
 
-
+```
 ---
 
 ## ⚙️ Setup Instructions
