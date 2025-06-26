@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+
+/* ===================== Global Reset & Utilities ===================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* ===================== Typography ===================== */
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.font-size-12 {
+  font-size: 0.75rem;
+}
+
+.font-size-14 {
+  font-size: 0.875rem;
+}
+
+.font-size-16 {
+  font-size: 1rem;
+}
+
+.font-size-20 {
+  font-size: 1.25rem;
+}
+
+/* ===================== Colors ===================== */
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background-color: #003859;
+}
+
+.color-second {
+  color: #00A5C4;
+}
+
+.color-second-bg {
+  background-color: #00A5C4;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background-color: #FFD289;
+}
+
+/* ===================== Top Sale ===================== */
+#top-sale {
+  padding: 2rem 0;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+#top-sale .owl-carousel .item {
+  transition: transform 0.3s ease-in-out;
+}
+
+#top-sale .owl-carousel .item:hover {
+  transform: scale(1.01);
+}
+
+#top-sale .item .product a {
+  display: block;
+  overflow: hidden;
+  border-radius: 0.75rem;
+}
+
+#top-sale .item .product img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  transition: transform 0.4s ease;
+}
+
+#top-sale .item .product img:hover {
+  transform: scale(1.1);
+}
+
+#top-sale .owl-nav button {
+  position: absolute;
+  top: 35%;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #003859;
+  transition: color 0.3s ease;
+}
+
+#top-sale .owl-nav button:hover {
+  color: #00A5C4;
+}
+
+#top-sale .owl-nav .owl-prev {
+  left: -3rem;
+}
+
+#top-sale .owl-nav .owl-next {
+  right: -3rem;
+}
+
+/* ===================== Special Price ===================== */
+#special-price {
+  padding: 2rem 0;
+}
+
+#special-price .grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+#special-price .grid-item {
+  background-color: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#special-price .grid-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ===================== Responsive ===================== */
+@media (max-width: 768px) {
+  #top-sale .owl-nav button.owl-prev,
+  #top-sale .owl-nav button.owl-next {
+    font-size: 1.5rem;
+    top: 40%;
+  }
+
+  #top-sale .owl-nav .owl-prev {
+    left: -1rem;
+  }
+
+  #top-sale .owl-nav .owl-next {
+    right: -1rem;
+  }
+}
