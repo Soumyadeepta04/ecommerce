@@ -1,3 +1,5 @@
+![SwipeKart Preview](assets/Banner.png)
+
 # 🛒 SwipeKart - Mobile E-Commerce Website
 
 Welcome to **SwipeKart**, a complete mobile-friendly e-commerce web application built using **PHP** and **MySQL**.  
